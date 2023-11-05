@@ -2,9 +2,7 @@ services:
   aasx-server:
     container_name: aasx-server
     hostname: aasx-server
-    build:
-      context: ./../..
-      dockerfile: ./src/docker/Dockerfile-AasxServerBlazor
+    image: adminshellio/aasx-server-blazor-for-demo:v3latest
     restart: unless-stopped
     ports:
       - "5001:5001"

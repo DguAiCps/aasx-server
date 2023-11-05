@@ -13,6 +13,7 @@
 
 	<PropertyGroup>
 		<ErrorOnDuplicatePublishOutputFiles>false</ErrorOnDuplicatePublishOutputFiles>
+		<StartupObject></StartupObject>
 	</PropertyGroup>
 
 	<ItemGroup>

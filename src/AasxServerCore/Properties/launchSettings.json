@@ -3,7 +3,8 @@
     "AasxServerCore": {
       "commandName": "Project",
       //"commandLineArgs": "--rest --port 51710 --data-path C:\\MIHO\\Develop\\Aasx\\repo --no-security",
-      "commandLineArgs": "--rest --port 51710 --no-security --data-path \"C:\\Development\\AASX\" --edit"
+      //"commandLineArgs": "--rest --port 51710 --no-security --data-path \"C:\\Development\\AASX\" --edit"
+      "commandLineArgs": "--rest --opc --port 51710 --no-security --data-path \"C:\\Users\\SeokMoongi\\Projects\\AAXServer\\AASX\" --edit"
 
     }
   }
